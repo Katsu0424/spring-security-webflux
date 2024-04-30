@@ -15,7 +15,9 @@ curl -i -b cookie.txt localhost:8080/hello
 ```
 
 # Redis(セッション管理)
-compose.yamlで最新のredisを起動して、保存したセッション情報をアプリケーション側の.dataにマウントして永続化してる
+compose.yamlで最新のredisを起動して、保存したセッション情報をアプリケーション側の.dataにマウントして永続化してる　<br>
+今は同一リポジトリで管理してるが、外部に立ち上げて繋ぐようにしても良いかも　<br>
+(lettuceConnectionFactoryで設定してapplication.yamlに接続情報書くとかでいけそう？)
 
 # テストとか
 まだ書いてないので、今度書く
