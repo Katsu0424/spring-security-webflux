@@ -21,3 +21,6 @@ compose.yamlで最新のredisを起動して、保存したセッション情報
 
 # テストとか
 まだ書いてないので、今度書く
+
+
+**参考**)[見ないようにしていたSpring Securityの認証実装と向き合った話(WebFlux)](https://zenn.dev/jy8752/articles/3b5beaced81efd)
